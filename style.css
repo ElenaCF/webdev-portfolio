@@ -44,7 +44,7 @@ header {
 
 @media only all and (max-width: 991px) {
     #navbarSupportedContent ul .dropdown-menu {
-        background-color: #f7efe1;
+        background-color: #f0ebe1;
         border: 0.5px solid lightgrey;
     }
     #navbarSupportedContent li {
