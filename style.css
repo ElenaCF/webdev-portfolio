@@ -34,8 +34,6 @@ header {
 
 #contact a {
     background-color: #9b7f5c;
-    border: 1px solid black;
-    border-radius: 10px;
 }
 
 #contact a:hover {
@@ -59,19 +57,16 @@ header {
 
 .websiteExample img {
     width: 100%;
-    height: 40%px;
+    height: 40%;
     object-fit: contain;
-    border-radius: 10px 10px 0 0;
 }
 
 .websiteCaption {
-    border-radius: 0 0 10px 10px;
     border: 0.5px solid lightgray;
 }
 
 .websiteCaption a h1 {
     display: inline;
-    color: darkgray;
 }
 
 /* Footer */
