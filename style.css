@@ -1,4 +1,4 @@
-/* Fonts */
+/* ======== Fonts ========= */
 
 p {
     font-family: "Georgia", sans-serif;
@@ -22,38 +22,36 @@ header h1 {
 }
 
 
-/* Entire Document */
+/* ============== Entire Document ============= */
 
-/* Header */
+/*========= Header ======== */
 
 header {
     background-color: #f0ebe1;
 }
 
-/* Navbar */
+/* ======== Navbar ========= */
 
-#contact a {
+#contact-mobile .nav-item,
+#contact-desktop .nav-item {
     background-color: #9b7f5c;
+    color: black;
+    display: inline-block;
+    text-align: center;
 }
 
-#contact a:hover {
+#contact-mobile .nav-item:hover,
+#contact-desktop .nav-item:hover,
+#contact-mobile .nav-item:focus,
+#contact-desktop .nav-item:focus {
     background-color: #6e522d;
 }
 
-@media only all and (max-width: 991px) {
-    #navbarSupportedContent ul .dropdown-menu {
-        background-color: #f0ebe1;
-        border: 0.5px solid lightgrey;
-    }
-    #navbarSupportedContent li {
-        position: initial;
-    }
-    #navbarSupportedContnet ul {
-        width: 100%
-    }
+ul .dropdown-menu {
+   background-color: #f0ebe1;
 }
 
-/* Main Grid */
+/* ======== Main Grid -============ */
 
 .websiteExample img {
     width: 100%;
@@ -70,5 +68,3 @@ header {
 }
 
 /* Footer */
-
-
