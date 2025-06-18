@@ -21,6 +21,12 @@ header h1 {
     font-size: 1.5em
 }
 
+nav {
+   font-family: "Georgia", sans-serif; 
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
 
 /* ============== Entire Document ============= */
 
@@ -33,7 +39,8 @@ header {
 /* ======== Navbar ========= */
 
 #contact-mobile .nav-item,
-#contact-desktop .nav-item {
+#contact-desktop .nav-item,
+#contact-about .nav-item {
     background-color: #9b7f5c;
     color: black;
     display: inline-block;
@@ -43,7 +50,9 @@ header {
 #contact-mobile .nav-item:hover,
 #contact-desktop .nav-item:hover,
 #contact-mobile .nav-item:focus,
-#contact-desktop .nav-item:focus {
+#contact-desktop .nav-item:focus,
+#contact-about .nav-item:hover,
+#contact-about .nav-item:focus, {
     background-color: #6e522d;
 }
 
