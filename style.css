@@ -40,7 +40,8 @@ header {
 
 #contact-mobile .nav-item,
 #contact-desktop .nav-item,
-#contact-about .nav-item {
+#contact-about .nav-item,
+.search .btn {
     background-color: #9b7f5c;
     color: black;
     display: inline-block;
@@ -52,12 +53,18 @@ header {
 #contact-mobile .nav-item:focus,
 #contact-desktop .nav-item:focus,
 #contact-about .nav-item:hover,
-#contact-about .nav-item:focus, {
+#contact-about .nav-item:focus, 
+.search .btn:hover,
+.search .btn:focus {
     background-color: #6e522d;
 }
 
+.search .btn, .form-control, .navbar-toggler {
+    border-radius: 0!important;
+}
+
 ul .dropdown-menu {
-   background-color: #f0ebe1;
+   background-color: #967431;
 }
 
 /* ======== Main Grid -============ */

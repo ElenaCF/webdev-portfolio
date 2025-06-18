@@ -28,29 +28,33 @@
     <nav class="navbar navbar-mobile d-lg-none px-3">
         <div class="container-fluid">
             <div id="contact-mobile" class="container-fluid navbar">
-                <ul class="navbar-nav d-md-flex flex-md-row w-100">
-                    <li class="nav-item my-2 my-md-0 mx-md-1">
+                <ul class="navbar-nav d-md-flex flex-md-row w-100 justify-content-center">
+                    <li class="nav-item my-2 my-md-0 me-md-1 flex-fill">
                         <a class="nav-link mx-2" aria-current="page" href="/about.html">About Me</a>
                     </li>
-                    <li class="nav-item my-2 my-md-0 mx-md-1">
+                    <li class="nav-item my-2 my-md-0 mx-md-1 flex-fill">
                         <a class="nav-link py-2 px-3" href="mailto:elenacflood@gmail.com">
                             <i class="fa-solid fa-envelope" title="Email"></i>
                         </a>
                     </li>
-                    <li class="nav-item my-2 my-md-0 mx-md-1">
+                    <li class="nav-item my-2 my-md-0 mx-md-1 flex-fill">
                         <a class="nav-link py-2 px-3" href="https://www.linkedin.com/in/elena-flood/">
                             <i class="fa-brands fa-linkedin-in" title="Linkedin"></i>
                         </a>
                     </li>
-                    <li class="nav-item my-2 my-md-0 mx-md-1">
+                    <li class="nav-item my-2 my-md-0 ms-md-1 flex-fill">
                         <a class="nav-link py-2 px-3" href="https://github.com/ElenaCF">
                             <i class="fa-brands fa-github" title="GitHub"></i>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="container-fluid navbar ps-1">
-                <a class="navbar-brand" href="#">Filter Projects</a>
+            <div class="container-fluid navbar">
+                <form class="search d-flex w-100 px-0 mb-3">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
+                </form>
+                <a class="navbar-brand ps-1" href="#">Filter Projects</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -161,6 +165,10 @@
                     </ul>
                 </li>
             </ul>
+            <form class="search d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 
