@@ -27,14 +27,11 @@ nav {
    font-style: normal;
 }
 
-.navbar-brand {
+span  {
    font-family: "Georgia", sans-serif; 
    font-optical-sizing: auto;
    font-style: normal;
-   font-weight: 500;
-   font-size: 0.75em
 }
-
 
 /* ============== Entire Document ============= */
 
@@ -73,6 +70,21 @@ header {
 
 ul .dropdown-menu {
    background-color: #f0ebe1;
+}
+
+.reset-btn {
+    border-radius: 0!important;
+}
+
+#filterHeader {
+   font-weight: 900;
+   font-size: 1.1em;
+   white-space: nowrap;
+}
+
+li.dropdown-item.selected-filter {
+    background-color: #9b7f5c !important;
+    color: white !important;
 }
 
 /* ======== Main Grid -============ */
