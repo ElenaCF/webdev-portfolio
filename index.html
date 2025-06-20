@@ -386,7 +386,7 @@
 
                 cards.forEach(card => {
                     const tags = (card.querySelector('.filter-data')?.dataset.tags || "").split(" ");
-                    const show = activeFilters.length === 0 || activeFilters.some(tag => tags.includes(tag));
+                    const show = activeFilters.length === 0 || activeFilters.every(tag => tags.includes(tag));
                     card.style.display = show ? '' : 'none';
                 });
             }
