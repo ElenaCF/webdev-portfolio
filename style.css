@@ -99,8 +99,10 @@ li.dropdown-item.selected-filter {
     border: 0.5px solid lightgray;
 }
 
-.websiteCaption a h1 {
+.websiteCaption button {
     display: inline;
+    font-weight: 800;
+
 }
 
 /* Footer */
