@@ -6,9 +6,9 @@
     <meta name="author" content="Elena" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -260,6 +260,8 @@
 
     <hr class="w-100">
 
+    <!-- ================== GRID ================== -->
+
     <main class="container-fluid px-3">
         <div class="row px-2 px-lg-0 gx-3 gy-3" id="filterable-content">
 
@@ -278,20 +280,53 @@
                 <div class="filter-data" data-tags="javascript typescript"></div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -311,21 +346,54 @@
                 </div>
                 <div class="filter-data" data-tags="javascript web-design"></div>
             </div>
-                  <!-- Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <!-- Modal -->
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal2" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -346,20 +414,53 @@
                 <div class="filter-data" data-tags="web-design typescript"></div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal3" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -380,20 +481,53 @@
                 <div class="filter-data" data-tags="typescript"></div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal4" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                           <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -414,20 +548,53 @@
                 <div class="filter-data" data-tags="javascript"></div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal5" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -447,21 +614,54 @@
                 </div>
                 <div class="filter-data" data-tags="javascript"></div>
             </div>
-             <!-- Modal -->
-            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <!-- Modal -->
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal6" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -481,21 +681,54 @@
                 </div>
                 <div class="filter-data" data-tags="web-design typescript"></div>
             </div>
-             <!-- Modal -->
-            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <!-- Modal -->
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal7" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
@@ -515,28 +748,64 @@
                 </div>
                 <div class="filter-data" data-tags="javascript typescript web-design"></div>
             </div>
-             <!-- Modal -->
-            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <!-- Modal -->
+            <div class="modal modal-xl modal-fullscreen-sm-down fade" id="exampleModal8" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Project Title</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
-                        </div>
+                            <div class="container fluid">
+                                <div class="row">
+                                    <div class="col-md-3"><img src="https://picsum.photos/260/400" alt="Website Screenshot"></div>
+                                    <div class="col-md-9">
+                                        <p>This is where a longer description of the project goes.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique mi
+                                            non
+                                            eros
+                                            pharetra aliquet. Quisque et varius turpis. Aliquam erat volutpat. Aliquam
+                                            fermentum
+                                            quam justo, dictum volutpat ante lacinia non. Fusce ultricies eleifend
+                                            volutpat.
+                                            Duis et
+                                            malesuada ex. Morbi tristique mauris sed velit bibendum vehicula. </p>
+                                        <p>Sed id magna condimentum, dapibus justo vitae, congue sem. Maecenas dictum,
+                                            justo
+                                            vel
+                                            luctus dictum, nulla lacus tempus est, vitae interdum urna libero sed
+                                            libero.
+                                            Curabitur
+                                            pellentesque ante ac erat fermentum, ut lobortis massa rhoncus. Integer eu
+                                            quam
+                                            felis.
+                                            Nam iaculis nulla in odio porta vehicula. Cras erat dolor, vehicula quis
+                                            commodo
+                                            non,
+                                            tempor eu purus. Nunc bibendum, felis in tincidunt lacinia, mi nisl maximus
+                                            quam, et
+                                            gravida purus metus ac nunc. Suspendisse cursus porta elit dignissim
+                                            suscipit.
+                                            Curabitur
+                                            ultricies mi nulla, id semper quam placerat quis. </p>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="#" class="btn">Go to Website</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
     <hr class="w-100">
+
+    <!-- ======= FOOTER ========= -->
+
     <footer class="container-xx1">
         <p class="text-center pt-2 pb-1">Inspired by <a href="https://sapiens.website/">sapiens.website</a> | Part of <a
                 href="https://www.altcademy.com/">Altcademy's Fullstack Program</a></p>

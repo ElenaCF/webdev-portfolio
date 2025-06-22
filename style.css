@@ -48,7 +48,7 @@ header {
 #contact-about .nav-item,
 .search .btn {
     background-color: #9b7f5c;
-    color: black;
+    color: white;
     display: inline-block;
     text-align: center;
 }
@@ -103,6 +103,23 @@ li.dropdown-item.selected-filter {
     display: inline;
     font-weight: 800;
 
+}
+
+.modal-content {
+    border-radius: 0;
+    border: 0px;
+}
+
+.modal-footer a {
+    background-color: #9b7f5c;
+    color: white;
+    border-radius: 0px;
+    border: 0;
+}
+
+.modal-footer a:hover {
+    background-color: #6e522d;
+    color: white;
 }
 
 /* Footer */
